@@ -1,1 +1,14 @@
-Todo
+All information taken from tfl.gov.uk
+
+Transport for London (TfL), the London trasnport authority, launched "Countdown" at the end of 2011 allowing to view live bus departures for a majority of bus stops in London, based on its name or unique number. It is currently limited to a simple webpage displaying information for a single stop at the same time. At the moment (March 2012) there is no API available to access this information, so we are limited to HTML scraping.
+
+This script contains a hard-coded list of bus stops. For each element in the list, we get the mobile version of the corresponding TfL website and collect essential data which is then presented in a single simple webpage.
+
+The script and generated HTML code are very basic and serve my personal need to choose among available bus stops in my area and minimize waiting time on the street.
+
+Links:
+http://m.countdown.tfl.gov.uk/
+http://www.tfl.gov.uk/corporate/projectsandschemes/11560.aspx
+
+Full list of the bus stop locations and codes (PDF 7.7MB)
+http://www.tfl.gov.uk/assets/downloads/corporate/bus-stop-codes.pdf
